@@ -3,29 +3,6 @@
 
 
 
-do{
-    let edad= prompt('Ingrese su edad');
-
-        if(!isNaN(edad)){
-
-                if (edad > 18){
-                    document.write('Ya puede conducir');
-                }else{
-                    document.write('No puede conducir');
-                }
-    
-        }else{
-                alert('No ingreso un número válido');
-            }
-
-     }while(edad>0)
- 
-
-   
-   
-
-     /*
-
     let edad= prompt('Ingrese su edad');
 
     if(!isNaN(edad)){
@@ -41,4 +18,4 @@ do{
         }
 
    
-*/
+
